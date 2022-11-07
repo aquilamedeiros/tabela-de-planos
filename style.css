@@ -1,0 +1,111 @@
+/* Aplicando reset no CSS e aplicando fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background: #F8F8F8;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+
+  width: fit-content;
+  height: fit-content;
+
+  margin: 62px auto 0px;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+  text-align: center;
+}
+
+#app{
+  display: flex;
+
+  width: fit-content;
+
+  justify-content: center;
+
+  gap: 27px;
+  margin: 36px auto;
+  
+}
+
+.plano{
+  display: flex;
+  flex-direction: column;
+
+  width: 328px;
+  height: fit-content;
+ 
+  background: #FFFFFF;
+
+  text-align: center;
+
+  border-radius: 14px;
+
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(44, 50, 50, 0.75);
+  -moz-box-shadow:    4px 4px 10px 0px rgba(44, 50, 50, 0.75);
+  box-shadow:         4px 4px 10px 0px rgba(44, 50, 50, 0.75);
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 30px auto;
+}
+
+.info span{
+  color: #484848;
+}
+
+.texts{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  margin-top: 10px;
+
+  font-size: 17;
+  color: #3C3C3C;
+}
+
+button{
+  padding: 15px;
+
+  width: 296px;
+
+  background: #23C281;
+  margin: 68px 15px 31px;
+
+  font-size: 19px;
+  color: #FFFFFF;
+  font-weight: bold;
+
+  border-radius: 90px;
+  border: none;
+
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 700px) {
+   #app{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+  @media only screen and (max-device-width: 1000px) {
+    #app{
+      display: flex;
+
+    }
+  }
