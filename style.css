@@ -100,7 +100,7 @@ button{
   cursor: pointer;
 }
 
-@media (max-width: 500px){
+@media (max-width: 450px){
   body{
     display: flex;
     align-items: center;
