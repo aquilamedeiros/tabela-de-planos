@@ -100,9 +100,14 @@ button{
   cursor: pointer;
 }
 
-@media only screen and (max-device-width: 700px) {
-   #app{
+@media (max-width: 500px){
+  body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  #app{
     display: flex;
     flex-direction: column;
-   }
   }
+}
